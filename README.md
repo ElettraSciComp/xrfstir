@@ -9,7 +9,7 @@ Currently the demo application can be found [here](https://open-data.elettra.eu/
  * username: xrf
  * password: topography
  
-![login_image](https://github.com/ElettraSciComp/xrfstir/blob/main/images/login.png)
+![login_image](https://github.com/ElettraSciComp/xrfstir/blob/main/images/login_zoom.png)
 
 After log-in it is possible to access a short usage manual in the "Appendix" section.
  
