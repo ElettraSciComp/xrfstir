@@ -6,6 +6,9 @@ Currently the demo application can be found [here](https://open-data.elettra.eu/
  * username: xrf
  * password: topography
  
+At present, the application is in its demonstration stage and only allows to load a predefined set of three datasets, allowing to edit all the parameters relevant for the acquisition setup geometry (i.e. the position of the detection system with respect to the examined sample) and the inverse reconstruction procedure. However, in the near future, it will be possible to upload the users' own datasets. Furthermore, upon contacting the authors (please address correspondence to: matteo.ippoliti@elettra.eu), it will also be possible to test different detection setups and geometries.
+ 
+## Tutorial
 After log-in it is possible to access a short usage manual in the "Appendix" section.
  
  {Appendix Image}
