@@ -1,20 +1,22 @@
 # XFR-STIR
-![logo](https://github.com/ElettraSciComp/xrfstir/blob/main/images/logo_web_app.png)
+![logo_image](https://github.com/ElettraSciComp/xrfstir/blob/main/images/logo_web_app.png)
 X-Ray Fluorescence Sample Topography Inverse Reconstruction (XRF-STIR), is a novel [ray-tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) based application developed in [Python](https://www.python.org/) and [Numba](https://numba.pydata.org/) for increased performance. The aim of the algorithm is to recover a 3D sample together with its correct topographical landscape, from 2D XRF count rate maps acquired on multi-detection systems of X-ray Fluorescence microscopy endstations. In particular, the presented demo application is designed on the LEXRF system present at the [TwinMic](https://www.elettra.trieste.it/elettra-beamlines/twinmic.html) beamline in Elettra Sincrotrone Trieste (Trieste, Italy). 
-
-Currently the demo application can be found [here](https://open-data.elettra.eu/scicomp/xrf-stir/) and can be accessed through the following credentials:
- * username: xrf
- * password: topography
  
 At present, the application is in its demonstration stage and only allows to load a predefined set of three datasets, allowing to edit all the parameters relevant for the acquisition setup geometry (i.e. the position of the detection system with respect to the examined sample) and the inverse reconstruction procedure. However, in the near future, it will be possible to upload the users' own datasets. Furthermore, upon contacting the authors (please address correspondence to: matteo.ippoliti@elettra.eu), it will also be possible to test different detection setups and geometries.
  
 ## Tutorial
+Currently the demo application can be found [here](https://open-data.elettra.eu/scicomp/xrf-stir/) and can be accessed through the following credentials:
+ * username: xrf
+ * password: topography
+ 
+![login_image](https://github.com/ElettraSciComp/xrfstir/blob/main/images/login.png)
+
 After log-in it is possible to access a short usage manual in the "Appendix" section.
  
  {Appendix Image}
  
-Secondly, the user can select an example dataset in the "Load Data" section, from three datasets that have been created artificially. Anyone of these datasets can be chosen and the respective experimental information will be loaded automatically in the following sections of the application. Further developments of the current application will allow users to load their own XRF datasets for analysis. For clarifications/information in this regard, please contact Matteo Ippoliti (matteo.ippoliti@elettra.eu).
- 
+Secondly, the user can select an example dataset in the "Load Data" section, from three datasets that have been created artificially. Anyone of these datasets can be chosen and the respective experimental information will be loaded automatically in the following sections of the application. 
+
  {LOAD DATA IMAGE}
  
 Thirdly, the experimental information regarding the data acquisition needs to be input. As mentioned, this is automatically taken care of when loading any of the three example datasets, and parameters do not neet to be changed.
