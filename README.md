@@ -17,7 +17,7 @@ After log-in it is possible to access a short usage manual in the "Appendix" sec
 
 Secondly, the user can select an example dataset in the "Load Data" section, from three datasets that have been created artificially. Anyone of these datasets can be chosen and the respective experimental information will be loaded automatically in the following sections of the application. 
 
-![load_data_image1](https://github.com/ElettraSciComp/xrfstir/blob/main/images/load_data1.png)
+![load_data_image3](https://github.com/ElettraSciComp/xrfstir/blob/main/images/load_data3.png)
  
 Thirdly, the experimental information regarding the data acquisition needs to be input. This is automatically taken care of when loading any of the three example datasets, and parameters do not neet to be changed.
 
