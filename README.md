@@ -1,6 +1,6 @@
 # XFR-STIR
 ![logo](https://github.com/ElettraSciComp/xrfstir/blob/main/images/logo_web_app.png)
-X-Ray Fluorescence Sample Topography Inverse Reconstruction (XRF-STIR), is a novel ray-tracing based application developed in Python and [Numba](https://numba.pydata.org/). The aim of the algorithm is to recover a 3D sample together with its correct topographical landscape, from 2D XRF count rate maps acquired on multi-detection systems of X-ray Fluorescence microscopy endstations. A demo application can be found here, and upon clicking, can be accessed through the following credentials:
+X-Ray Fluorescence Sample Topography Inverse Reconstruction (XRF-STIR), is a novel [ray-tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) based application developed in [Python](https://www.python.org/) and [Numba](https://numba.pydata.org/) for increased performance. The aim of the algorithm is to recover a 3D sample together with its correct topographical landscape, from 2D XRF count rate maps acquired on multi-detection systems of X-ray Fluorescence microscopy endstations. In particular, the presented demo application is designed on the LEXRF system present at the [TwinMic](https://www.elettra.trieste.it/elettra-beamlines/twinmic.html) beamline in Elettra Sincrotrone Trieste (Trieste, Italy). Currently the demo application can be found [here](https://open-data.elettra.eu/scicomp/xrf-stir/) and can be accessed through the following credentials:
  * username: xrf
  * password: topography
  
