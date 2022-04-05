@@ -13,8 +13,8 @@ Currently the demo application can be found [here](https://open-data.elettra.eu/
 
 After log-in it is possible to access a short usage manual in the "Appendix" section.
  
- {Appendix Image}
- 
+![appendix_image](https://github.com/ElettraSciComp/xrfstir/blob/main/images/appendix.png)
+
 Secondly, the user can select an example dataset in the "Load Data" section, from three datasets that have been created artificially. Anyone of these datasets can be chosen and the respective experimental information will be loaded automatically in the following sections of the application. 
 
  {LOAD DATA IMAGE}
