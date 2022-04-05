@@ -1,11 +1,11 @@
 # XFR-STIR
 ![logo_image](https://github.com/ElettraSciComp/xrfstir/blob/main/images/logo_web_app.png)
-X-Ray Fluorescence Sample Topography Inverse Reconstruction (XRF-STIR), is a novel [ray-tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) based application developed in [Python](https://www.python.org/) and [Numba](https://numba.pydata.org/) for increased performance. The aim of the algorithm is to recover a 3D sample together with its correct topographical landscape, from 2D XRF count rate maps acquired on multi-detection systems of X-ray Fluorescence microscopy endstations. In particular, the presented demo application is designed on the LEXRF system present at the [TwinMic](https://www.elettra.trieste.it/elettra-beamlines/twinmic.html) beamline in Elettra Sincrotrone Trieste (Trieste, Italy). 
+X-Ray Fluorescence Sample Topography Inverse Reconstruction (XRF-STIR), is a novel [ray-tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) based application developed in [Python](https://www.python.org/) and [Numba](https://numba.pydata.org/) for increased performance, while the web deployment is achieved through [Dash](https://plotly.com/dash/). The aim of the algorithm is to recover a 3D sample together with its correct topographical landscape, from 2D XRF count rate maps acquired on multi-detection systems of X-ray Fluorescence microscopy endstations. In particular, the presented demo application is designed on the LEXRF system present at the [TwinMic](https://www.elettra.trieste.it/elettra-beamlines/twinmic.html) beamline in Elettra Sincrotrone Trieste (Trieste, Italy). 
  
 At present, the application is in its demonstration stage and only allows to load a predefined set of three datasets, allowing to edit all the parameters relevant for the acquisition setup geometry (i.e. the position of the detection system with respect to the examined sample) and the inverse reconstruction procedure. However, in the near future, it will be possible to upload the users' own datasets. Furthermore, upon contacting the authors (please address correspondence to: matteo.ippoliti@elettra.eu), it will also be possible to test different detection setups and geometries.
  
 ## Tutorial
-Currently the demo application can be found [here](https://open-data.elettra.eu/scicomp/xrf-stir/) and can be accessed through the following credentials:
+Currently the demo application can be found [HERE](https://open-data.elettra.eu/scicomp/xrf-stir/) and can be accessed through the following credentials:
  * username: xrf
  * password: topography 
 
@@ -37,6 +37,10 @@ After having defined the acquisition geometry, the user needs to identify explic
 ![line_selection](https://github.com/ElettraSciComp/xrfstir/blob/main/images/line_selection.png)
 
 
-In the "Setup Inverse Reconstruction Parameters" section the user can change all the parameters linked to the reconstruction algorithm. For example it is possible to change the number of iteration required to extract thickness information from STXM data provided at loadtime, or change the XRF line to be used as a source for the inverse reconstruction.
+In the "Setup Inverse Reconstruction Parameters" section the user can change all the parameters linked to the reconstruction algorithm. For example it is possible to change the number of iteration required to extract thickness information from STXM data provided at loadtime, or change the XRF line to be used as a source for the inverse reconstruction. When all parameters are set click on the "Run IR" button.
 
+![Inverse_recon](https://github.com/ElettraSciComp/xrfstir/blob/main/images/Inverse_recon.png)
+
+Once the reconstruction has finished, the screen will automatically drop over the 3D rendering window. In the top left corner the user will be also presented with a controller for the 3D rendering, which is achieved through [Dash VTK](https://dash.plotly.com/vtk).
+ Different colormaps can be selected for display as well as the use of shadows for increasing depth perception. Furthermore, a gradient can be used to select the display range of the values. 
 ![viewer_3D](https://github.com/ElettraSciComp/xrfstir/blob/main/images/viewer_3D.png)
