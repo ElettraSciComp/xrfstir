@@ -9,7 +9,7 @@ Currently the demo application can be found [here](https://open-data.elettra.eu/
  * username: xrf
  * password: topography
  
-![login_image](https://github.com/ElettraSciComp/xrfstir/blob/main/images/login_zoom.png)
+![login_image](https://github.com/ElettraSciComp/xrfstir/blob/main/images/login.png)
 
 After log-in it is possible to access a short usage manual in the "Appendix" section.
  
@@ -17,7 +17,7 @@ After log-in it is possible to access a short usage manual in the "Appendix" sec
 
 Secondly, the user can select an example dataset in the "Load Data" section, from three datasets that have been created artificially. Anyone of these datasets can be chosen and the respective experimental information will be loaded automatically in the following sections of the application. 
 
- {LOAD DATA IMAGE}
+![load_data_image](https://github.com/ElettraSciComp/xrfstir/blob/main/images/load_data1.png)
  
 Thirdly, the experimental information regarding the data acquisition needs to be input. As mentioned, this is automatically taken care of when loading any of the three example datasets, and parameters do not neet to be changed.
 
