@@ -29,6 +29,8 @@ Inside the "Setup Geometry and XRF Lines" section one can setup all the experime
 
 After having defined the acquisition geometry, the user needs to identify explicitly the XRF maps that have been provided at loadtime, by providing the element and fluorescence line for each found entry.
 
-{select line image}
+![](https://github.com/ElettraSciComp/xrfstir/blob/main/images/setup_SDDs.png)
+![](https://github.com/ElettraSciComp/xrfstir/blob/main/images/line_selection.png)
+
 
 In the "Setup Inverse Reconstruction Parameters" section the user can change all the parameters linked to the reconstruction algorithm. For example it is possible to change the number of iteration required to extract thickness information from STXM data provided at loadtime, or change the XRF line to be used as a source for the inverse reconstruction.
