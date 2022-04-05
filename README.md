@@ -1,5 +1,5 @@
 # XFR-STIR
-## Description
+![This is an image](https://github.com/ElettraSciComp/xrfstir/blob/main/images/logo_web_app.png)
 X-Ray Fluorescence Sample Topography Inverse Reconstruction (XRF-STIR), is a ray-tracing based application developed to recover a 3D sample together with its correct topographical landscape, from 2D XRF count rate maps acquired on multi-detection systems. A demo application can be found here, and upon clicking, can be accessed through the following credentials:
  * username: xrf
  * password: topography
