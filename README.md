@@ -1,4 +1,9 @@
 # XFR-STIR
+Demo web app for manuscript:
+
+"Reconstruction of 3D topographic landscape in soft XRF microscopy through an
+inverse X-ray-tracing approach based on multiple detectors" M. Ippoliti, F. Billè, A. Karydas, A. Gianoncelli, G. Kourousias (under submission)
+
 ### Version 01.04.22
 ![logo_image](https://github.com/ElettraSciComp/xrfstir/blob/main/images/logo_web_app.png)
 X-Ray Fluorescence Sample Topography Inverse Reconstruction (XRF-STIR), is a novel [ray-tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) based application developed in [Python](https://www.python.org/) and [Numba](https://numba.pydata.org/) for increased performance, while the web deployment is achieved through [Dash](https://plotly.com/dash/). The aim of the algorithm is to recover a 3D sample together with its correct topographical landscape, from 2D XRF count rate maps acquired on multi-detection systems of X-ray Fluorescence microscopy endstations. In particular, the presented demo application is designed on the LEXRF system present at the [TwinMic](https://www.elettra.trieste.it/elettra-beamlines/twinmic.html) beamline in Elettra Sincrotrone Trieste (Trieste, Italy). 
@@ -28,7 +33,7 @@ Thirdly, the experimental information regarding the data acquisition needs to be
 ![input_exp_info](https://github.com/ElettraSciComp/xrfstir/blob/main/images/Input_info.png)
 
 
-Inside the "Setup Geometry and XRF Lines" section one can setup all the experimental information relative to the acquisition geometry, i.e. how the multiple-detector system is arranged in space with respect to the sample being scanned. The current version of this application automatically loads the LEXRF acquisition setup present at the [TwinMic](https://www.elettra.trieste.it/elettra-beamlines/twinmic.html) beamline at Elettra Sinctrotrone, Trieste, when selecting one of the example datasets. As is, any setup recalling the basic geometry of LEXRF can be directly accessed in the application by simply changing the relative parameters (eg. detector's active area and distance to the sample). 
+Inside the "Setup Geometry and XRF Lines" section one can setup all the experimental information relative to the acquisition geometry, i.e. how the multiple-detector system is arranged in space with respect to the sample being scanned. The current version of this application automatically loads the LEXRF acquisition setup present at the [TwinMic](https://www.elettra.trieste.it/elettra-beamlines/twinmic.html) beamline at Elettra Sinctrotrone, Trieste, when selecting one of the example datasets. It is Any setup recalling the basic geometry of LEXRF can be directly accessed in the application by simply changing the relative parameters (eg. detector's active area and distance to the sample). 
 
 ![setup_SDDs](https://github.com/ElettraSciComp/xrfstir/blob/main/images/setup_SDDs.png)
 
