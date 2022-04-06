@@ -28,7 +28,7 @@ Thirdly, the experimental information regarding the data acquisition needs to be
 ![input_exp_info](https://github.com/ElettraSciComp/xrfstir/blob/main/images/Input_info.png)
 
 
-Inside the "Setup Geometry and XRF Lines" section one can setup all the experimental information relative to the acquisition geometry, i.e. how the multiple-detector system is arranged in space with respect to the sample being scanned. The current version of this application automatically loads the LEXRF acquisition setup present at the TwinMic beamline at Elettra Sinctrotrone, Trieste, when selecting one of the example datasets. As is, any setup recalling the basic geometry of LEXRF can be directly accessed in the application by simply changing the relative parameters (eg. detector's active area and distance to the sample). 
+Inside the "Setup Geometry and XRF Lines" section one can setup all the experimental information relative to the acquisition geometry, i.e. how the multiple-detector system is arranged in space with respect to the sample being scanned. The current version of this application automatically loads the LEXRF acquisition setup present at the [TwinMic](https://www.elettra.trieste.it/elettra-beamlines/twinmic.html) beamline at Elettra Sinctrotrone, Trieste, when selecting one of the example datasets. As is, any setup recalling the basic geometry of LEXRF can be directly accessed in the application by simply changing the relative parameters (eg. detector's active area and distance to the sample). 
 
 ![setup_SDDs](https://github.com/ElettraSciComp/xrfstir/blob/main/images/setup_SDDs.png)
 
