@@ -5,7 +5,7 @@ Demo web app for manuscript:
 inverse X-ray-tracing approach based on multiple detectors" M. Ippoliti, F. Billè, A. Karydas, A. Gianoncelli, G. Kourousias (under submission)
 
 ### Version 01.04.22
-<img src=https://github.com/ElettraSciComp/xrfstir/blob/main/images/logo_web_app.png alt="logo_web_app" height="250" align="center"/>
+<img src=https://github.com/ElettraSciComp/xrfstir/blob/main/images/logo_web_app.png alt="logo_web_app" height="350"/>
 
 X-Ray Fluorescence Sample Topography Inverse Reconstruction (XRF-STIR), is a novel [ray-tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) based application developed in [Python](https://www.python.org/) and [Numba](https://numba.pydata.org/) for increased performance, while the web deployment is achieved through [Dash](https://plotly.com/dash/). The aim of the algorithm is to recover a 3D sample together with its correct topographical landscape, from 2D XRF count rate maps acquired on multi-detection systems of X-ray Fluorescence microscopy endstations. In particular, the presented demo application is designed on the LEXRF system present at the [TwinMic](https://www.elettra.trieste.it/elettra-beamlines/twinmic.html) beamline in Elettra Sincrotrone Trieste (Trieste, Italy). 
 
